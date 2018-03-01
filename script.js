@@ -20,11 +20,7 @@ function startConfig(){
 // start game
 function startGame(){
     document.querySelector('#start').onclick = function(){
-    startConfig();
-    sequence = [];
-    player = [];
-    playerClick();
-    nextRound();
+    restart();
 }
     document.querySelector('#restart').onclick = function(){
         restart();
